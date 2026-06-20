@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int yas;
+printf("bir yas degeri giriniz:\n");
+scanf("%d",&yas);
+if(18<=yas){
+printf("ehliyet alabilme hakki var\n");
+}else if(yas==17){
+printf("kursa dahil olabilir ama ehliyeti simdi alamaz\n");
+}else{
+printf("ehliyet alamaz cunku yas siniri uygun degil\n");
+}
+return 0;
+}
